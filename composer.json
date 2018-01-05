@@ -1,0 +1,26 @@
+{
+    "name": "hector68/mkad-google-distance",
+    "authors": [
+        {
+            "name": "Dmitriy Ronzin",
+            "email": "hector.tmb@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.6.*",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hector68\\MkadGoogleDistance\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hector68\\MkadGoogleDistance\\Tests\\": "tests/"
+        }
+    }
+}
